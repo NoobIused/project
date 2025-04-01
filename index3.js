@@ -56,7 +56,7 @@ function jump() {
             cover.style.animationName = "fadeout"
             cover.style.animationDuration = "5s"
             information.style.animationName = "fadeout"
-            information.style.animationDuration = "3s"
+            information.style.animationDuration = "5s"
             cover.addEventListener('animationend', () => {
                 cover.style.display = "none";  // Hide the element after animation
                 localStorage.setItem("hasplayed",true)        
