@@ -32,27 +32,18 @@ function jump() {
             button.innerHTML = "huh?"
             break;
         case 3:
-            button.innerHTML = "what is it?"
+            button.innerHTML = "😐"
             break;
         case 4:
-            button.innerHTML = "you cant be serious!"
+            button.innerHTML = "thats nice"
             break;
         case 5:
-            button.innerHTML = "oh..."
+            button.innerHTML = "..."
             break;
         case 6:
-            button.innerHTML = "damn..."
-            break; 
-        case 7:
-            button.innerHTML = "damn..."
-            break;     
-        case 8:
-            button.innerHTML = "😳"
-            break;
-        case 9:
-            button.innerHTML = "...."
+            button.innerHTML = "bruh"
             break;                  
-        case 10:
+        case 7:
             cover.style.animationName = "fadeout"
             cover.style.animationDuration = "5s"
             information.style.animationName = "fadeout"
