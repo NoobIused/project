@@ -4,7 +4,7 @@ var iframecount = 1
 var cover = document.getElementById("cover")
 var information = document.getElementById("info")
 
-var hasseen = localStorage.getItem("hasplayed")
+var hasseen = localStorage.getItem("hasplayed2")
 
 if (hasseen) {
     cover.style.display = "none"
@@ -32,25 +32,22 @@ function jump() {
             button.innerHTML = "huh?"
             break;
         case 3:
-            button.innerHTML = "😐"
-            break;
-        case 4:
             button.innerHTML = "thats nice"
             break;
-        case 5:
-            button.innerHTML = "..."
+        case 4:
+            button.innerHTML = "😐"
             break;
-        case 6:
+        case 5:
             button.innerHTML = "bruh"
-            break;                  
-        case 7:
+            break;                 
+        case 6:
             cover.style.animationName = "fadeout"
             cover.style.animationDuration = "5s"
             information.style.animationName = "fadeout"
             information.style.animationDuration = "5s"
             cover.addEventListener('animationend', () => {
                 cover.style.display = "none";  // Hide the element after animation
-                localStorage.setItem("hasplayed",true)        
+                localStorage.setItem("hasplayed2",true)        
                 console.log("done!")
             });
             break;  
